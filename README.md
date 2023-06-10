@@ -1,9 +1,10 @@
 # THIS IMAGE IS NOT AFFILIATED WITH UBLUE OR FEDORA AND IS INTENDED FOR PERSONAL USE
 
 ### What's in this image:
+* [uBlue Startingpoint](https://github.com/ublue-os/startingpoint)
 * Hyprland
 * Waybar
-* fontawesome-fonts
+* thunar
 * gdb
 * btop
 * cliphist
@@ -11,8 +12,8 @@
 * fastfetch
 * lite-xl
 * android stuff (android-file-transfer, android-tools, and android udev rules)
-* custom yafti config/first time setup
-* Everything from [uBlue Startingpoint](https://github.com/ublue-os/startingpoint)
+* Custom yafti config/first time setup (With optional Flatpak apps)
+* See [recipe.yml](recipe.yml) and [yafti.yml](usr/share/ublue-os/firstboot/yafti.yml) for full list.
 
 #### Note
 There is separate builds for nvidia ([hypratomic-nvidia](https://github.com/ccuqme/hypratomic-nvidia)) and AMD/Intel ([hypratomic](https://github.com/ccuqme/hypratomic))
