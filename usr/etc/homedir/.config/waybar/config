@@ -75,7 +75,7 @@
             "warning": 70,
             "critical": 90,
         },
-        "on-click": "kitty -e 'btm'",
+        "on-click": "kitty -e 'btop'",
     },
 
     "custom/keyboard-layout": {
@@ -92,7 +92,7 @@
     "memory": {
         "interval": 5,
         "format": " {}%", // Icon: memory
-        "on-click": "kitty -e 'btm'", 
+        "on-click": "kitty -e 'btop'", 
         "states": {
             "warning": 70,
             "critical": 90

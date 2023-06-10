@@ -83,7 +83,7 @@ rpm:
     - thunar
     - thunar-archive-plugin
     - gstreamer-ffmpeg
-    - htop
+    - btop
     - imv
     - kvantum
     - qalculate
