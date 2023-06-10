@@ -128,6 +128,7 @@
         "disable-scroll": true,
         "disable-markup" : false,
         "all-outputs": true,
+        "on-click": "activate",
         "format": "  {icon}  ",
         //"format":"{icon}",
         "format-icons": {
