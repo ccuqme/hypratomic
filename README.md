@@ -1,29 +1,43 @@
-# THIS IMAGE IS NOT AFFILIATED WITH UBLUE OR FEDORA AND IS INTENDED FOR PERSONAL USE
+# HyprAtomic
 
-### What's in this image:
-* [uBlue Startingpoint](https://github.com/ublue-os/startingpoint)
-* Hyprland
-* Waybar
-* thunar
-* gdb
-* btop
-* cliphist
-* qalculate
-* fastfetch
-* lite-xl
-* android stuff (android-file-transfer, android-tools, and android udev rules)
-* Custom yafti config/first time setup (With optional Flatpak apps)
-* See [recipe.yml](recipe.yml) and [yafti.yml](usr/share/ublue-os/firstboot/yafti.yml) for full list.
+HyprAtomic is a custom uBlue image built with Hyprland. This image is not officially affiliated with uBlue or Fedora and is intended for personal use.
 
-#### Note
-There is separate builds for nvidia ([hypratomic-nvidia](https://github.com/ccuqme/hypratomic-nvidia)) and AMD/Intel ([hypratomic](https://github.com/ccuqme/hypratomic))
+## Features
 
-## REBASE 
-### BACK UP YOUR .CONFIG DIRECTORY BEFORE RUNNING! (RUN THIS AT YOUR OWN RISK!)
- ```bash
- rpm-ostree rebase ostree-unverified-registry:ghcr.io/ccuqme/hypratomic:latest
- ```
-see: [uBlue Startingpoint](https://github.com/ublue-os/startingpoint) and [main uBlue image](https://github.com/ublue-os/main) to see the features uBlue offers!
+This image includes:
+
+  * [uBlue Starting Point](https://github.com/ublue-os/startingpoint)
+  * Hyprland
+  * Waybar
+  * Thunar
+  * GDB
+  * Btop
+  * Cliphist
+  * Qalculate
+  * Fastfetch
+  * Lite-xl
+  * Android utilities (android-file-transfer, android-tools, and android udev rules)
+  * Custom yafti configuration and first-time setup (with optional Flatpak apps)
+
+For the full list of included components, please refer to [recipe.yml](recipe.yml) and [yafti.yml](usr/share/ublue-os/firstboot/yafti.yml).
+
+## Prerequisites
+
+This image is designed for AMD/Intel. For Nvidia, please use the [HyprAtomic Nvidia](https://github.com/ccuqme/hypratomic-nvidia) build.
+
+## Usage
+
+**Note**: Please back up your `.config` directory before running the following command. This operation carries certain risks and should be executed at your own discretion.
+
+```bash
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/ccuqme/hypratomic:latest
+```
+
+For more information on the features offered by uBlue, please refer to the [uBlue Starting Point](https://github.com/ublue-os/startingpoint) and [main uBlue image](https://github.com/ublue-os/main) documentation.
+
+## License
+
+This project is licensed under Apache-2.0.
 
 #### Credits
 * [gerblesh/uBlue-Hyprland](https://github.com/gerblesh/uBlue-Hyprland) - Where I got most of the configuration
