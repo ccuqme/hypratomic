@@ -1,4 +1,4 @@
-# Starting point
+# hypratomic
 
 [![build-ublue](https://github.com/ccuqme/hypratomic/actions/workflows/build.yml/badge.svg)](https://github.com/ccuqme/hypratomic/actions/workflows/build.yml)
 
