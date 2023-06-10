@@ -30,7 +30,6 @@
         // "backlight#value",
         "pulseaudio",
     "pulseaudio#microphone",
-        //"network",
     ],
 
     // Modules
