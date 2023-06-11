@@ -1,3 +1,9 @@
+### This repository has been archived.
+
+### New image built from the [main uBlue image](https://github.com/ublue-os/main) can be found here on [ccuqme/ublue-hyperland](https://github.com/ccuqme/ublue-hyprland/).
+
+This repo can be used as a example for using the [uBlue Starting Point](https://github.com/ublue-os/startingpoint) to create your personal Hyprland image.
+
 # HyprAtomic
 
 HyprAtomic is a custom uBlue image built with Hyprland. This image is not officially affiliated with uBlue or Fedora and is intended for personal use.
